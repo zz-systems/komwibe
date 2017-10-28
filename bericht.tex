@@ -13,6 +13,8 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 
+\usepackage{titling}
+
 % Basic Look & Feel
 \usepackage{babel}
 \usepackage{lmodern}
@@ -30,7 +32,7 @@
 \usepackage[hyphens]{url}
 \usepackage[hidelinks,linktoc=all]{hyperref}
 \usepackage{cleveref}
-\usepackage[backend=biber, style=ieee]{biblatex}
+\usepackage[backend=biber, style=trad-plain]{biblatex}
 \addbibresource{bibliography.bib} 
 
 % Tables
@@ -75,10 +77,14 @@
 		\maketitle
 	\end{titlepage}
 	
-	\begin{abstract}		
-lala
+	\begin{abstract}
+		In diesem Dokument wird die wissenschaftliche Datenbank \textbf{ACM} beschrieben und nach dem Datenbankfahrplan der UB Chemnitz \cite{resource:dbf} bewertet.
+		
+		In this document the scientific database \textbf{ACM} is described and evaluated according to \cite{resource:dbf}
 	\end{abstract}
 
+	\clearpage
+	
 	\pagenumbering{Roman}
 		\tableofcontents
 		\listoffigures	
@@ -96,11 +102,20 @@ lala
 	\chapter{Ergebnisse}
 		
 	\chapter{Diskussion}	
+	
+	\chapter{Eigenständigkeitserklärung}
+	
+	Wir versichern hiermit ehrenwörtlich, dass ich die vorliegende Arbeit selbstständig und ohne Benutzung anderer als der angegebenen Hilfsmittel angefertigt habe. Alle Stellen, die wörtlich oder sinngemäß aus veröffentlichten oder unveröffentlichten Quellen entnommen worden sind, sind als solche kenntlich gemacht. Diese Arbeit lag in gleicher oder ähnlicher Form noch keiner anderen Prüfungsbehörde vor und wurde bisher noch nicht veröffentlicht.
+	
+	Friedberg, den \today
+	
+	
+	\rule[-0.2cm]{5cm}{0.5pt}
+	
+	\textsc{\theauthor} 
 
-
-
-		
+	
+	
+	
+	\printbibliography
 \end{document}
-
-
-\printbibliography
