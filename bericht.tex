@@ -113,7 +113,7 @@ Dieser Bericht erläutert und diskutiert die Möglichkeiten, die sich durch Nutz
 \centering
 \includegraphics[width=\textwidth]{img/acmLogo.PNG}
 \end{minipage}
-\caption{Das Logo der ACM. (\textit{Stand:} 01.11.2017)\newline \textit{Quelle}: \url{http://www.acm.org/images/top-menu/acm_logo_tablet.svg}}
+\caption{Das Logo der ACM. {\cite{image:acmlogo}}}
 \end{figure}
 
 	\chapter{Methoden}
@@ -144,7 +144,7 @@ Dieser Bericht erläutert und diskutiert die Möglichkeiten, die sich durch Nutz
 		\begin{figure}[ht]
 \centering
 \includegraphics[width=\textwidth]{img/suchergebnisse.PNG}
-\caption{Ausschnitt aus Suchergebnissen nach ,,FPGA'' (\textit{Stand:} 01.11.2017)\newline \textit{Quelle}: \url{https://dl.acm.org/results.cfm?within=owners.owner\%3DHOSTED&srt=_score&query=FPGA&Go.x=0&Go.y=0}}
+\caption{Ausschnitt aus Suchergebnissen nach ,,FPGA'' {\cite{image:lookup}}}
 \end{figure}
 		Die Suchergebnisse können weiter exportiert werden nach \textit{bibtex}, \textit{endnote}, \textit{acmref} oder \textit{csv}. Ebenso ist eine Einbindung von Citavi etc.  möglich. Somit ist eine einfache Referenzierung und Zitierung mit gängigen Literaturverwaltungsprogrammen gegeben.
 		\ \\
@@ -177,7 +177,7 @@ In der unteren Übersicht sind dann neben dem \textit{Abstract} noch zusätzlich
 \begin{figure}[ht]
 \centering
 \includegraphics[width=\textwidth]{img/Details.PNG}
-\caption{"Ubersichtsseite des Buches \textit{Analyzing and predicting the impact of CAD algorithm noise on FPGA speed performance and power}}
+\caption{"Ubersichtsseite des Buches \textit{Analyzing and predicting the impact of CAD algorithm noise on FPGA speed performance and power} {\cite{image:details}}}
 \end{figure}
 \clearpage
 Als Beispiel für eine selbstständig erschienene Quelle wird ein aktuelles Buch herangeführt: \textit{Shared-Memory Parallelism Can Be Simple, Fast and Scalable}, erschienen im Jahr 2017. Der Aufbau der Übersichtsseite unterscheidet sich eigentlich nur in der Schnellübersicht von dem einer unselbständig erschienenen Quelle.
@@ -185,7 +185,7 @@ Als Beispiel für eine selbstständig erschienene Quelle wird ein aktuelles Buch
 \begin{figure}[ht]
 \centering
 \includegraphics[width=\textwidth]{img/seq.PNG}
-\caption{Schnellübersicht des Buches \textit{Shared-Memory Parallelism Can Be Simple, Fast and Scalable} (\textit{Stand:} 01.11.2017)\newline \textit{Quelle}: \url{https://dl.acm.org/citation.cfm?id=3018787&CFID=1000898013&CFTOKEN=32142016}}
+\caption{Schnellübersicht des Buches \textit{Shared-Memory Parallelism Can Be Simple, Fast and Scalable} {\cite{image:seq}}}
 \end{figure}
 \ \\
 So findet sich dort die Formulierung \textit{Publication} statt \textit{Published in}. Der Medientyp an der linken Seite ist auch entsprechend angepasst: \textit{Book} statt \textit{Article}. Außerdem finden sich keine Seitenangaben, die den zugehörigen Bereich auf einen Teil des Werkes beschränken.
@@ -221,5 +221,8 @@ So findet sich dort die Formulierung \textit{Publication} statt \textit{Publishe
 	
 	
 	
-	\printbibliography
+	\printbibliography[title=Literaturverzeichnis,nottype=misc]
+	\nopagebreak
+	\printbibliography[title=Bildquellen,type=misc]
+	
 \end{document}
