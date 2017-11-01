@@ -105,13 +105,12 @@
 Dieser Bericht erläutert und diskutiert die Möglichkeiten, die sich durch Nutzung der wissenschaftlichen Datenbank der ACM (\textit{Digital Libary}) eröffnen.
 \ \\
 \begin{figure}[ht]
-\begin{minipage}[b]{0.55\linewidth}
+\begin{minipage}[b]{0.47\linewidth}
 \centering
 \includegraphics[width=\textwidth]{img/acmLogo.PNG}
-\caption{Das Logo der ACM.}
 \end{minipage}
+\caption{Das Logo der ACM. (\textit{Stand:} 01.11.2017)\newline \textit{Quelle}: \url{http://www.acm.org/images/top-menu/acm_logo_tablet.svg}}
 \end{figure}
-% Bildquelle: \url{http://www.acm.org/images/top-menu/acm_logo_tablet.svg}
 
 	\chapter{Methoden}
 	Um einen möglichst umfassenden Überblick über die Datenbank der ACM zu erhalten, wird der Datenbankfahrplan der UB Chemnitz \cite{resource:dbf} verwendet. Dieser vereinfacht die Untersuchung der Möglichkeiten einer bibliographischen Datenbank anhand gezielter Fragestellungen.
@@ -120,8 +119,8 @@ Dieser Bericht erläutert und diskutiert die Möglichkeiten, die sich durch Nutz
 	Außerdem wird eine selbstständig und eine unselbstständig erschienene wissenschaftliche Publikation in der Datenbank recherchiert und untersucht. Der Schwerpunkt liegt dabei auf dem grundsätzlichen Aufbau und Inhalt der Datensätze.
 	
 	
-	\chapter{Ergebnisse}
-	In diesem Kapitel soll anhand dem vorher erwähnten Datenbankfahrplan der UB Chemnitz \cite{resource:dbf} die \textsl{ACM Digital Library} analysiert und beschrieben werden.
+		\chapter{Ergebnisse}
+	In diesem Kapitel soll anhand dem vorher erwähnten Datenbankfahrplan der UB Chemnitz \cite{resource:dbf} die \textsl{ACM Digital Library} (\url{https://dl.acm.org}) analysiert und beschrieben werden. 
 		\ \\
 		\ \\
 		Zunächst zum Inhalt: Es handelt sich um eine Datenbank mit Volltextsuche, die es dem Benutzer ermöglicht, in verzeichneten Werken nach Schlagwörtern und Wortfolgen sowie Kombinationen zu suchen. Die angebotenen Medientypen sind vielfältig: Neben Büchern, Zeitschriften, Magazinen, Protokollen und Kongressberichten finden sich auch Videoaufzeichnungen von Fachkonferenzen.
@@ -135,31 +134,59 @@ Dieser Bericht erläutert und diskutiert die Möglichkeiten, die sich durch Nutz
 		\item In der erweiterten Suche können bestimmte Felder für die Suche spezifiziert werden. Zur Auswahl stehen hier verschiedene Felder wie Autor, Titel, Erscheinungsjahr, Volltext und andere Kriterien. Es könne beliebig viele Kriterien zur Verfeinerung der Suche kombiniert werden. Die Suche ist grafisch aufbereitet; so müssen die Suchkriterien nicht per Hand in einem bestimmten Syntax eingegeben werden. Dadurch können vom Benutzer auch boolsche Suchoperatoren wie UND, ODER sowie NICHT noch einfacher nachvollziehbar angewandt werden. Für fortgeschrittene Benutzer ist aber selbstverständlich auch direkte Suche mittels \textit{query syntax} möglich. In diesem Format lässt sich eine Suche leichter extern speichern, ohne ein Bildschirmfoto zu erstellen und dieses dann nachzubauen.
 		\end{itemize}
 		\ \\
-		Eine erfolgte Suche kann nachträglich nach Relevanz, Publikationsdatum, Anzahl der Zitationen oder Downloads sortiert werden. Ebenso kann auch weiter nach Personen (Autor, Editor, Reviewer...), Publikationen, oder auch nach Konferenzen (bei Protokollen und Berichten) gefiltert werden. Diese Funktionalität befindet sich in der rechten Seitenleiste. Sehr interessant ist auch der dort gezeigte Graph: So lässt sich ablesen, in welchem Jahr es wie viele Publikationen gegeben hat, die den Suchkriterien entsprechen. Gerade weil die \textit{ACM} als erste wissenschaftliche Gesellschaft für Informatik gilt, lassen sich durch diese Funktion auch historische Betrachtungen anstellen.
+		Eine erfolgte Suche kann nachträglich nach Relevanz, Publikationsdatum, Anzahl der Zitationen oder Downloads sortiert werden. Ebenso kann auch weiter nach Personen (Autor, Editor, Reviewer...), Publikationen, oder auch nach Konferenzen (bei Protokollen und Berichten) gefiltert werden. Diese Funktionalität befindet sich in der linken Seitenleiste. Sehr interessant ist auch der dort gezeigte Graph: So lässt sich ablesen, in welchem Jahr es wie viele Publikationen gegeben hat, die den Suchkriterien entsprechen. Gerade weil die \textit{ACM} als erste wissenschaftliche Gesellschaft für Informatik gilt, lassen sich durch diese Funktion auch historische Betrachtungen anstellen.
 		\ \\
 		\ \\
-		Die Suchergebnisse können weiter exportiert werden nach \textit{bibtex}, \textit{endnote}, \textit{acmref} oder \textit{csv}. Ebenso ist die Einbindung von Citavi möglich. Somit ist eine einfache Referenzierung und Zitierung im eigenen Literaturverwaltungsprogramm möglich.
+		\begin{figure}[ht]
+\centering
+\includegraphics[width=\textwidth]{img/suchergebnisse.PNG}
+\caption{Ausschnitt aus Suchergebnissen nach ,,FPGA'' (\textit{Stand:} 01.11.2017)\newline \textit{Quelle}: \url{https://dl.acm.org/results.cfm?within=owners.owner\%3DHOSTED&srt=_score&query=FPGA&Go.x=0&Go.y=0}}
+\end{figure}
+		Die Suchergebnisse können weiter exportiert werden nach \textit{bibtex}, \textit{endnote}, \textit{acmref} oder \textit{csv}. Ebenso ist eine Einbindung von Citavi etc.  möglich. Somit ist eine einfache Referenzierung und Zitierung mit gängigen Literaturverwaltungsprogrammen gegeben.
 		\ \\
 		\ \\
 		Über eine Anmeldefunktion ist es ebenso möglich, seine Suchanfragen zu speichern und zu verwalten, um später erneut darauf zurückgreifen zu können.	
 \\\
 \\\
-Als Beispiel hier noch die erweiterte Suche einer unselbstständigen Quelle. Zu finden ist der Artikel ,,Analyzing and predicting the impact of CAD algorithm noise on FPGA speed performance and power". Nun ist dem Sucher allerdings der genaue Titel nicht mehr bekannt und sucht in der allgemeinen Suche. Hier werden dann allerdings 4,268 Suchergebnisse zurückgegeben. Das gesuchte Werk befindet sich hier etwa auf der fünften Ergebnisseite. 
+Als Beispiel wird die erweiterte Suche einer unselbstständigen Quelle angeführt: Zu finden ist der Artikel ,,Analyzing and predicting the impact of CAD algorithm noise on FPGA speed performance and power''. Nun ist dem Sucher allerdings der genaue Titel nicht mehr bekannt und sucht in der allgemeinen Suche. Hier werden dann allerdings 4268 Suchergebnisse zurückgegeben. Das gesuchte Werk befindet sich hier etwa auf der fünften Ergebnisseite. 
 \begin{figure}[ht]
 \centering
 \includegraphics[width=\textwidth]{img/Suche_FPGA.PNG}
-\caption{einfache Suche nach ,,FPGA''}
+\caption{Einfache Suche nach ,,FPGA''}
 \end{figure}
+\ \\
 Im folgenden soll anhand der erweiterten Suche das Suchergebnis präzisiert werden. Zunächst wird für Titel das Schlagwort ,,FPGA'' eingegeben und als Autor soll unter anderem ,,Shum'' gelistet sein.
-Die Suche wurde hier Einschließlich aber nicht ausschließlich gewählt (matches any) alternativ wäre die ausschließliche Suche (matches all) möglich, sowie die ausschließende suche (matches none) möglich.
-Sofern der Autor bekannt ist, reduziert sich das Suchergebnis somit auf nur nun mehr 2 Suchergebnisse.
+Die Suche wurde hier einschließlich aber nicht ausschließlich gewählt (matches any) alternativ wäre die ausschließliche Suche (matches all) möglich, sowie die ausschließende suche (matches none) möglich.
+Sofern der Autor bekannt ist, reduziert sich das Suchergebnis somit auf nur zwei Treffer.
 \begin{figure}[ht]
 \centering
 \includegraphics[width=\textwidth]{img/Suche_FPGA-Shum.PNG}
-\caption{erweiterte Suche}
+\caption{Erweiterte Suche}
 \end{figure}
-So kann man die Suche auf einfache Art stark eingrenzen, sofern Bibliografische Eigenschaften wie Autor, Erscheinungsdatum etc bekannt sind.
-	
+\ \\
+So kann man die Suche auf einfache Art stark eingrenzen, sofern bibliografische Eigenschaften wie Autor, Erscheinungsdatum etc. bekannt sind.
+\ \\
+\ \\
+Nachdem das gesuchte Werk gefunden wurde, gelangt man auf die Übersichtsseite. Hier werden Details "uber das Werk angezeigt. Zunächst ist auf der linken Seite das Cover abgebildet, in diesem Fall das Cover des Sammelwerkes, in dem der Artikel veröffentlicht wurde. Darüber werden die Autoren sowie deren Institution aufgelistet. Auf der rechten Seite werden noch statistische Informationen darüber angezeigt, wie oft das Werk heruntergeladen und zitiert wurde.
+In der letzten Zeile der Schnellübersicht sind noch \textit{ISBN} und \textit{doi} Nummer aufgeführt.
+In der unteren Übersicht sind dann neben dem \textit{Abstract} noch zusätzliche Informationen zu dem Werk enthalten.
+\begin{figure}[ht]
+\centering
+\includegraphics[width=\textwidth]{img/Details.PNG}
+\caption{"Ubersichtsseite des Buches \textit{Analyzing and predicting the impact of CAD algorithm noise on FPGA speed performance and power}}
+\end{figure}
+\clearpage
+Als Beispiel für eine selbstständig erschienene Quelle wird ein aktuelles Buch herangeführt: \textit{Shared-Memory Parallelism Can Be Simple, Fast and Scalable}, erschienen im Jahr 2017. Der Aufbau der Übersichtsseite unterscheidet sich eigentlich nur in der Schnellübersicht von dem einer unselbständig erschienenen Quelle.
+\ \\
+\begin{figure}[ht]
+\centering
+\includegraphics[width=\textwidth]{img/seq.PNG}
+\caption{Schnellübersicht des Buches \textit{Shared-Memory Parallelism Can Be Simple, Fast and Scalable} (\textit{Stand:} 01.11.2017)\newline \textit{Quelle}: \url{https://dl.acm.org/citation.cfm?id=3018787&CFID=1000898013&CFTOKEN=32142016}}
+\end{figure}
+\ \\
+So findet sich dort die Formulierung \textit{Publication} statt \textit{Published in}. Der Medientyp an der linken Seite ist auch entsprechend angepasst: \textit{Book} statt \textit{Article}. Außerdem finden sich keine Seitenangaben, die den zugehörigen Bereich auf einen Teil des Werkes beschränken.
+
+
 	\chapter{Diskussion}	
 	
 	Die \textsl{ACM Digital Library} erlaubt es, komfortabel Inhalte aus dem Themengebiet der Informationstechnologie zu suchen. Die Volltextsuche ermöglicht dem Nutzer, nicht nur über Metadaten sondern auch über Stichwörter in den Inhalten relevante Werke zu finden; erweiterte Suchfunktionen stellen auch fortgeschrittene Benutzer zufrieden. Weitere Funktionen wie die Filterung der Suchergebnisse nach zahlreichen Kriterien und umfangreiche Exportmöglichkeiten sind ebenfalls positive Eigenschaften der Datenbank. 
